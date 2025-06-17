@@ -1,0 +1,82 @@
+{
+  "FaneleApp": {
+    "classes": {
+      "User ": {
+        "attributes": {
+          "username": "String",
+          "password": "String"
+        },
+        "example": {
+          "username": "admin",
+          "password": "password123"
+        }
+      },
+      "Message": {
+        "attributes": {
+          "sender": "String",
+          "recipient": "String",
+          "content": "String",
+          "messageHash": "String",
+          "messageID": "String"
+        },
+        "example": {
+          "sender": "Aphiwe",
+          "recipient": "+27834557896",
+          "content": "Did you get the cake?",
+          "messageHash": "hash001",
+          "messageID": "msg001"
+        }
+      }
+    },
+    "lists": {
+      "sentMessages": [
+        {
+          "sender": "Aphiwe",
+          "recipient": "+27834557896",
+          "content": "Did you get the cake?",
+          "messageHash": "hash001",
+          "messageID": "msg001"
+        },
+        {
+          "sender": "Ntando",
+          "recipient": "+27838954567",
+          "content": "it is dinner time",
+          "messageHash": "hash003",
+          "messageID": "msg003"
+        }
+      ],
+      "disregardedMessages": [
+        {
+          "sender": "Siyanda",
+          "recipient": "+27837774567",
+          "content": "Where are you? you are late! i have asked you to be on time.",
+          "messageHash": "hash004",
+          "messageID": "msg004"
+        },
+        {
+          "sender": "Fanele",
+          "recipient": "+27834484567",
+          "content": "Yohoooo,I am at your gate",
+          "messageHash": "hash005",
+          "messageID": "msg005"
+        }
+      ],
+      "storedMessages": [
+        {
+          "sender": "Nonhle",
+          "recipient": "+27838884567",
+          "content": "Project files attached.",
+          "messageHash": "hash006",
+          "messageID": "msg006"
+        },
+        {
+          "sender": "Nokwanda",
+          "recipient": "+27838764567",
+          "content": "OK, I am leaving without you.",
+          "messageHash": "hash007",
+          "messageID": "msg007"
+        }
+      ]
+    }
+  }
+}
